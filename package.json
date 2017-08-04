@@ -1,0 +1,25 @@
+{
+  "name": "node-server-example",
+  "version": "1.0.0",
+  "description": "A simple server written in vanilla Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "github-webhook-handler": "^0.6.0",
+    "github-app": "^3.0.0",
+    "github": "^9.2.0"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/node-server-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "server"
+  ]
+}
